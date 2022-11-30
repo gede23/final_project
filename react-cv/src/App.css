@@ -1,0 +1,113 @@
+header {
+  position: relative;
+}
+
+header .top-menu {
+  position: absolute;
+  top: 0px;
+  height: 107px;
+  background: rgba(255, 255, 255, .5); ;
+  width: 100%;
+}
+header  .top-menu .menu-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header .top-menu ul{
+  list-style: none;
+}
+
+header .logo-container {
+  float: left;
+}
+
+header .logo-container .logo {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 100%;
+  background: url(/images/logo.jpg) -5px -6px;
+  background-size: 110%;
+  float: left;
+
+}
+header .logo-container .logo-description {
+  float: left;
+  margin-left: 15px;
+  font-size: 21px;
+}
+header .logo-container .logo-description p{
+  margin: 15px 0;
+
+}
+header .top-menu .navbar {
+  float: right;
+  margin-top: 30px;
+}
+
+header .top-menu .navbar ul.nav li{
+ float: left;
+  margin-right: 15px;
+}
+header .top-menu .navbar ul.nav li a{
+  color: #ffffff;
+}
+header .top-menu .navbar ul.nav li a:hover{
+  color: #880509;
+}
+
+header .printit {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  color: #ffffff;
+  padding: 5px 10px;
+  background: #20108a;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+header .video-container {
+  max-width: 100%;
+}
+
+header .video-container video {
+  max-width: 100%;
+}
+
+header .jumbotron {
+  position: absolute;
+  top: 50%;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+section {
+  max-width:1100px;
+  margin: 0 auto;
+}
+section.about {
+  font-size: 20px;
+  padding: 25px 0;
+}
+
+section.contacts .green-line {
+  background: #171798;
+  color: #ffffff;
+  border-radius: 50px;
+  margin: 0 -50px;
+  padding: 0px 50px;
+}
+section.contacts .green-line h2 {
+  margin: 0;
+}
+section.contacts ul.contacts-list {
+  display: inline;
+  list-style: none;
+}
+section.contacts ul.contacts-list li {
+  float: left;
+}
